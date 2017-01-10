@@ -1,0 +1,6 @@
+framework module Pods_Soybean_Tracker {
+  umbrella header "Pods-Soybean Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

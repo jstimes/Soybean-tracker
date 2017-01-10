@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047C7083B3A3C31BD7BC50B8 /* Pods_Soybean_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B73B7E64F2886AD058E2D9 /* Pods_Soybean_Tracker.framework */; };
+		FB0C1B841DD18218006160BD /* AnnotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C1B831DD18218006160BD /* AnnotateImageViewController.swift */; };
+		FB1311F61DD12F96005154FB /* EntrySummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311F51DD12F96005154FB /* EntrySummaryViewController.swift */; };
+		FB1311F81DD1424A005154FB /* CreateEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311F71DD1424A005154FB /* CreateEntryViewController.swift */; };
+		FB1311FA1DD145C9005154FB /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311F91DD145C9005154FB /* ChildViewController.swift */; };
+		FBA6D6BB1DCF9F6D007A0516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6D6BA1DCF9F6D007A0516 /* AppDelegate.swift */; };
+		FBA6D6C01DCF9F6D007A0516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA6D6BE1DCF9F6D007A0516 /* Main.storyboard */; };
+		FBA6D6C31DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBA6D6C11DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodeld */; };
+		FBA6D6C51DCF9F6D007A0516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA6D6C41DCF9F6D007A0516 /* Assets.xcassets */; };
+		FBA6D6C81DCF9F6D007A0516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA6D6C61DCF9F6D007A0516 /* LaunchScreen.storyboard */; };
+		FBBCE71F1DCFDE1200C394FA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE71E1DCFDE1200C394FA /* HomeTableViewController.swift */; };
+		FBBCE7211DCFDE4A00C394FA /* CreateEntryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE7201DCFDE4A00C394FA /* CreateEntryPageViewController.swift */; };
+		FBBCE7231DCFDF3C00C394FA /* SelectPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE7221DCFDF3C00C394FA /* SelectPhotoViewController.swift */; };
+		FBBCE7251DCFE02300C394FA /* SoybeanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE7241DCFE02300C394FA /* SoybeanData.swift */; };
+		FBBCE7271DD03F6200C394FA /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE7261DD03F6200C394FA /* DiagnosisViewController.swift */; };
+		FBBCE7291DD0DE3F00C394FA /* ContextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCE7281DD0DE3F00C394FA /* ContextViewController.swift */; };
+		FBC181791DD3C3A500C2EB75 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC181781DD3C3A500C2EB75 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B73B7E64F2886AD058E2D9 /* Pods_Soybean_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soybean_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867F1C3DEF69D458D5DF8E96 /* Pods-Soybean Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soybean Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soybean Tracker/Pods-Soybean Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		E664CE878E899B944CCA990F /* Pods-Soybean Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soybean Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soybean Tracker/Pods-Soybean Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		FB0C1B831DD18218006160BD /* AnnotateImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotateImageViewController.swift; sourceTree = "<group>"; };
+		FB1311F51DD12F96005154FB /* EntrySummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrySummaryViewController.swift; sourceTree = "<group>"; };
+		FB1311F71DD1424A005154FB /* CreateEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEntryViewController.swift; sourceTree = "<group>"; };
+		FB1311F91DD145C9005154FB /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		FBA6D6B71DCF9F6D007A0516 /* Soybean Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soybean Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA6D6BA1DCF9F6D007A0516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBA6D6BF1DCF9F6D007A0516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA6D6C21DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soybean_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		FBA6D6C41DCF9F6D007A0516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA6D6C71DCF9F6D007A0516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA6D6C91DCF9F6D007A0516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBCE71E1DCFDE1200C394FA /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		FBBCE7201DCFDE4A00C394FA /* CreateEntryPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEntryPageViewController.swift; sourceTree = "<group>"; };
+		FBBCE7221DCFDF3C00C394FA /* SelectPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPhotoViewController.swift; sourceTree = "<group>"; };
+		FBBCE7241DCFE02300C394FA /* SoybeanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoybeanData.swift; sourceTree = "<group>"; };
+		FBBCE7261DD03F6200C394FA /* DiagnosisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		FBBCE7281DD0DE3F00C394FA /* ContextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextViewController.swift; sourceTree = "<group>"; };
+		FBC181781DD3C3A500C2EB75 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA6D6B41DCF9F6C007A0516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C7083B3A3C31BD7BC50B8 /* Pods_Soybean_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22859F03F2BF63DA4897E77A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E664CE878E899B944CCA990F /* Pods-Soybean Tracker.debug.xcconfig */,
+				867F1C3DEF69D458D5DF8E96 /* Pods-Soybean Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2C2334049B7F0066A2EA2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B73B7E64F2886AD058E2D9 /* Pods_Soybean_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA6D6AE1DCF9F6C007A0516 = {
+			isa = PBXGroup;
+			children = (
+				FBA6D6B91DCF9F6D007A0516 /* Soybean Tracker */,
+				FBA6D6B81DCF9F6D007A0516 /* Products */,
+				22859F03F2BF63DA4897E77A /* Pods */,
+				B2C2334049B7F0066A2EA2E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA6D6B81DCF9F6D007A0516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6D6B71DCF9F6D007A0516 /* Soybean Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA6D6B91DCF9F6D007A0516 /* Soybean Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6D6BA1DCF9F6D007A0516 /* AppDelegate.swift */,
+				FBA6D6BE1DCF9F6D007A0516 /* Main.storyboard */,
+				FB1311F71DD1424A005154FB /* CreateEntryViewController.swift */,
+				FB0C1B831DD18218006160BD /* AnnotateImageViewController.swift */,
+				FB1311F91DD145C9005154FB /* ChildViewController.swift */,
+				FBBCE7281DD0DE3F00C394FA /* ContextViewController.swift */,
+				FBBCE7261DD03F6200C394FA /* DiagnosisViewController.swift */,
+				FB1311F51DD12F96005154FB /* EntrySummaryViewController.swift */,
+				FBBCE7221DCFDF3C00C394FA /* SelectPhotoViewController.swift */,
+				FBBCE7201DCFDE4A00C394FA /* CreateEntryPageViewController.swift */,
+				FBA6D6C41DCF9F6D007A0516 /* Assets.xcassets */,
+				FBA6D6C61DCF9F6D007A0516 /* LaunchScreen.storyboard */,
+				FBA6D6C91DCF9F6D007A0516 /* Info.plist */,
+				FBA6D6C11DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodeld */,
+				FBBCE71E1DCFDE1200C394FA /* HomeTableViewController.swift */,
+				FBBCE7241DCFE02300C394FA /* SoybeanData.swift */,
+				FBC181781DD3C3A500C2EB75 /* Utils.swift */,
+			);
+			path = "Soybean Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA6D6B61DCF9F6C007A0516 /* Soybean Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA6D6CC1DCF9F6D007A0516 /* Build configuration list for PBXNativeTarget "Soybean Tracker" */;
+			buildPhases = (
+				BE11155F8F632365D0718388 /* [CP] Check Pods Manifest.lock */,
+				FBA6D6B31DCF9F6C007A0516 /* Sources */,
+				FBA6D6B41DCF9F6C007A0516 /* Frameworks */,
+				FBA6D6B51DCF9F6C007A0516 /* Resources */,
+				5301159107D3C3E1350626BA /* [CP] Embed Pods Frameworks */,
+				9DEA672A25AD2A295542869A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soybean Tracker";
+			productName = "Soybean Tracker";
+			productReference = FBA6D6B71DCF9F6D007A0516 /* Soybean Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA6D6AF1DCF9F6C007A0516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iastate.mechanics;
+				TargetAttributes = {
+					FBA6D6B61DCF9F6C007A0516 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7Z5W3ZU459;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBA6D6B21DCF9F6C007A0516 /* Build configuration list for PBXProject "Soybean Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA6D6AE1DCF9F6C007A0516;
+			productRefGroup = FBA6D6B81DCF9F6D007A0516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA6D6B61DCF9F6C007A0516 /* Soybean Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA6D6B51DCF9F6C007A0516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA6D6C81DCF9F6D007A0516 /* LaunchScreen.storyboard in Resources */,
+				FBA6D6C51DCF9F6D007A0516 /* Assets.xcassets in Resources */,
+				FBA6D6C01DCF9F6D007A0516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5301159107D3C3E1350626BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soybean Tracker/Pods-Soybean Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEA672A25AD2A295542869A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soybean Tracker/Pods-Soybean Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE11155F8F632365D0718388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA6D6B31DCF9F6C007A0516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCE7271DD03F6200C394FA /* DiagnosisViewController.swift in Sources */,
+				FB1311F81DD1424A005154FB /* CreateEntryViewController.swift in Sources */,
+				FBBCE71F1DCFDE1200C394FA /* HomeTableViewController.swift in Sources */,
+				FBC181791DD3C3A500C2EB75 /* Utils.swift in Sources */,
+				FBA6D6C31DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodeld in Sources */,
+				FB1311F61DD12F96005154FB /* EntrySummaryViewController.swift in Sources */,
+				FBA6D6BB1DCF9F6D007A0516 /* AppDelegate.swift in Sources */,
+				FBBCE7251DCFE02300C394FA /* SoybeanData.swift in Sources */,
+				FBBCE7211DCFDE4A00C394FA /* CreateEntryPageViewController.swift in Sources */,
+				FBBCE7231DCFDF3C00C394FA /* SelectPhotoViewController.swift in Sources */,
+				FBBCE7291DD0DE3F00C394FA /* ContextViewController.swift in Sources */,
+				FB0C1B841DD18218006160BD /* AnnotateImageViewController.swift in Sources */,
+				FB1311FA1DD145C9005154FB /* ChildViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBA6D6BE1DCF9F6D007A0516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA6D6BF1DCF9F6D007A0516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA6D6C61DCF9F6D007A0516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA6D6C71DCF9F6D007A0516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBA6D6CA1DCF9F6D007A0516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA6D6CB1DCF9F6D007A0516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA6D6CD1DCF9F6D007A0516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E664CE878E899B944CCA990F /* Pods-Soybean Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z5W3ZU459;
+				INFOPLIST_FILE = "Soybean Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iastate.mechanics.Soybean-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBA6D6CE1DCF9F6D007A0516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867F1C3DEF69D458D5DF8E96 /* Pods-Soybean Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z5W3ZU459;
+				INFOPLIST_FILE = "Soybean Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iastate.mechanics.Soybean-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA6D6B21DCF9F6C007A0516 /* Build configuration list for PBXProject "Soybean Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA6D6CA1DCF9F6D007A0516 /* Debug */,
+				FBA6D6CB1DCF9F6D007A0516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA6D6CC1DCF9F6D007A0516 /* Build configuration list for PBXNativeTarget "Soybean Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA6D6CD1DCF9F6D007A0516 /* Debug */,
+				FBA6D6CE1DCF9F6D007A0516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBA6D6C11DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBA6D6C21DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodel */,
+			);
+			currentVersion = FBA6D6C21DCF9F6D007A0516 /* Soybean_Tracker.xcdatamodel */;
+			path = Soybean_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBA6D6AF1DCF9F6C007A0516 /* Project object */;
+}
